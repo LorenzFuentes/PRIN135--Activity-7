@@ -1,0 +1,25 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    animation: act7 2s infinite;
+    font-size: 30px;
+    color: black;
+}
+h1 {
+    font-size: 50px;
+    color: black;
+}
+
+@keyframes act7 {
+    0%, 100%{
+        transform: rotate(90deg);
+    }
+    50% {
+        transform: rotate(-90deg);
+    }
+
+}
